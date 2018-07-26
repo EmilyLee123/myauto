@@ -1,0 +1,4 @@
+2018-07-25 16:29:17,698 - Driver - INFO - 打开谷歌浏览器
+2018-07-25 16:29:17,700 - Driver - INFO - 隐式等待元素时间为：15
+2018-07-25 16:29:21,323 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-07-25 16:29:25,750 - Page - INFO - 关闭浏览器

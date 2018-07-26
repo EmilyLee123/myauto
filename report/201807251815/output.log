@@ -1,0 +1,14 @@
+2018-07-25 18:15:07,894 - Driver - INFO - 打开谷歌浏览器
+2018-07-25 18:15:07,896 - Driver - INFO - 隐式等待元素时间为：15
+2018-07-25 18:15:10,376 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-07-25 18:15:12,662 - CMSLoginTest - INFO - 实际文本：帮助，预期文本：帮助
+2018-07-25 18:15:12,662 - CMSLoginTest - INFO - 实际文本：登录，预期文本：登录
+2018-07-25 18:15:12,662 - CMSLoginTest - INFO - 实际文本：登录到课程管理中心，预期文本：登录到课程管理中心
+2018-07-25 18:15:12,662 - CMSLoginTest - INFO - 实际文本：邮箱或手机号码，预期文本：邮箱或手机号码
+2018-07-25 18:15:12,662 - CMSLoginTest - INFO - 实际文本：例如：username@domain.com或者13800138000，预期文本：例如：username@domain.com或者13800138000
+2018-07-25 18:15:12,663 - CMSLoginTest - INFO - 实际文本：密码，预期文本：密码
+2018-07-25 18:15:12,663 - CMSLoginTest - INFO - 实际文本：登录到课程管理中心，预期文本：登录到课程管理中心
+2018-07-25 18:15:12,663 - CMSLoginTest - INFO - 实际文本：使用验证码登录，预期文本：使用验证码登录
+2018-07-25 18:15:12,663 - CMSLoginTest - INFO - 实际文本：© 2018 英荔教育.，预期文本：© 2018 英荔教育.
+2018-07-25 18:15:12,663 - CMSLoginTest - INFO - 实际文本：EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。，预期文本：EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。
+2018-07-25 18:15:15,764 - Page - INFO - 关闭浏览器

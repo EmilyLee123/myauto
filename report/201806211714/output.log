@@ -1,0 +1,30 @@
+2018-06-21 17:14:13,054 - Driver - INFO - 打开谷歌浏览器
+2018-06-21 17:14:13,057 - Driver - INFO - 隐式等待元素时间为：15
+2018-06-21 17:14:15,232 - Page - INFO - 浏览器中输入域名：https://gx.admins.beta.e-ducation.cn/
+2018-06-21 17:14:15,232 - Excel - INFO - 加载login/loginexcel表
+2018-06-21 17:14:15,254 - Excel - INFO - 读取EXCEL表中的数据：[{'description': '请输入密码', 'expected_result': '请输入密码', 'serial_number': 'login100003', 'username': 1399269249, 'password': ''}, {'description': '请输入密码', 'expected_result': '请输入密码', 'serial_number': 'login100004', 'username': 18820408825, 'password': ''}, {'description': '密码长度为6-30位字符', 'expected_result': '密码长度为6-30位字符', 'serial_number': 'login100005', 'username': 18820408825, 'password': 12345}, {'description': '密码长度为6-30位字符', 'expected_result': '密码长度为6-30位字符', 'serial_number': 'login100006', 'username': 18820408825, 'password': '1234567890123456789012345678901'}, {'description': '账号尚未与此组织关联，请联系管理员', 'expected_result': '账号尚未与此组织关联，请联系管理员', 'serial_number': 'login100007', 'username': 18820408825, 'password': 123456}, {'description': '账号尚未与此组织关联，请联系管理员', 'expected_result': '账号尚未与此组织关联，请联系管理员', 'serial_number': 'login100008', 'username': 13226349780, 'password': 1234567}, {'description': '账号尚未与此组织关联，请联系管理员', 'expected_result': '账号尚未与此组织关联，请联系管理员', 'serial_number': 'login100011', 'username': 13226349780, 'password': 123456}]
+2018-06-21 17:14:15,256 - AdminLogin - INFO - 用例号码login100003正在执行
+2018-06-21 17:14:19,179 - Page - INFO - 关闭浏览器
+2018-06-21 17:14:25,453 - Driver - INFO - 打开谷歌浏览器
+2018-06-21 17:14:25,456 - Driver - INFO - 隐式等待元素时间为：15
+2018-06-21 17:14:27,209 - Page - INFO - 浏览器中输入域名：https://gx.admins.beta.e-ducation.cn/
+2018-06-21 17:14:27,788 - AdminLoginTest - INFO - 实际文本：中文，预期文本：中文
+2018-06-21 17:14:27,788 - AdminLoginTest - INFO - 实际文本：登录，预期文本：登录
+2018-06-21 17:14:27,788 - AdminLoginTest - INFO - 实际文本：忘记密码，预期文本：忘记密码
+2018-06-21 17:14:27,788 - AdminLoginTest - INFO - 实际文本：验证码登录，预期文本：验证码登录
+2018-06-21 17:14:30,881 - Page - INFO - 关闭浏览器
+2018-06-21 17:14:53,685 - Driver - INFO - 打开谷歌浏览器
+2018-06-21 17:14:53,687 - Driver - INFO - 隐式等待元素时间为：15
+2018-06-21 17:14:55,007 - Page - INFO - 浏览器中输入域名：https://gx.admins.beta.e-ducation.cn/
+2018-06-21 17:14:55,007 - Excel - INFO - 加载login/loginexcel表
+2018-06-21 17:14:55,012 - Excel - INFO - 读取EXCEL表中的数据：[{'expected_result': '请输入密码', 'username': 1399269249, 'serial_number': 'login100003', 'description': '请输入密码', 'password': ''}, {'expected_result': '请输入密码', 'username': 18820408825, 'serial_number': 'login100004', 'description': '请输入密码', 'password': ''}, {'expected_result': '密码长度为6-30位字符', 'username': 18820408825, 'serial_number': 'login100005', 'description': '密码长度为6-30位字符', 'password': 12345}, {'expected_result': '密码长度为6-30位字符', 'username': 18820408825, 'serial_number': 'login100006', 'description': '密码长度为6-30位字符', 'password': '1234567890123456789012345678901'}, {'expected_result': '账号尚未与此组织关联，请联系管理员', 'username': 18820408825, 'serial_number': 'login100007', 'description': '账号尚未与此组织关联，请联系管理员', 'password': 123456}, {'expected_result': '账号尚未与此组织关联，请联系管理员', 'username': 13226349780, 'serial_number': 'login100008', 'description': '账号尚未与此组织关联，请联系管理员', 'password': 1234567}, {'expected_result': '账号尚未与此组织关联，请联系管理员', 'username': 13226349780, 'serial_number': 'login100011', 'description': '账号尚未与此组织关联，请联系管理员', 'password': 123456}]
+2018-06-21 17:14:55,013 - AdminLogin - INFO - 用例号码login100003正在执行
+2018-06-21 17:14:58,937 - Page - INFO - 关闭浏览器
+2018-06-21 17:15:05,096 - Driver - INFO - 打开谷歌浏览器
+2018-06-21 17:15:05,098 - Driver - INFO - 隐式等待元素时间为：15
+2018-06-21 17:15:06,635 - Page - INFO - 浏览器中输入域名：https://gx.admins.beta.e-ducation.cn/
+2018-06-21 17:15:07,221 - AdminLoginTest - INFO - 实际文本：中文，预期文本：中文
+2018-06-21 17:15:07,221 - AdminLoginTest - INFO - 实际文本：登录，预期文本：登录
+2018-06-21 17:15:07,221 - AdminLoginTest - INFO - 实际文本：忘记密码，预期文本：忘记密码
+2018-06-21 17:15:07,222 - AdminLoginTest - INFO - 实际文本：验证码登录，预期文本：验证码登录
+2018-06-21 17:15:10,301 - Page - INFO - 关闭浏览器

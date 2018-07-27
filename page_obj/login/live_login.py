@@ -3,8 +3,7 @@ from page_obj.base import Page
 from readConfig import ReadConfig
 
 logger = Logging("live_Login").getlog()
-class \
-        liveLogin(Page):
+class liveLogin(Page):
 
 
     def tests(self):
@@ -18,7 +17,7 @@ class \
         list.append(self.text("live_login", "登录"))
         list.append(self.text("live_login", "注册账户"))
         return list
-"""
+
     #登录功能操作
     def live_login_fun(self, username, password):
         #登录状态操作
@@ -34,7 +33,7 @@ class \
 
        # elif self.isElementExist("live_login", "错误提示"):
 
-"""
+
 class login(Page):
     """登录的通用方法"""
     def live_login(self):

@@ -193,7 +193,9 @@ class Page():
     def send_keys(self, page, element, value):
         """清空输入框，然后输入VALUE"""
         self.wait_time(0.8)
+
         self.find_element(page, element).clear()
+
         self.find_element(page, element).send_keys(value)
     def send_keys_noclear(self, page, element, value):
         """清空输入框，然后输入VALUE"""
@@ -389,7 +391,7 @@ class Page():
         return dis
 
     #判断元素是否存在
-    def isElementExist(self, page, element,time=1):
+    def isElementExist(self, page, element, time=1):
         """判断元素是否存在"""
         try:
             self.driver.implicitly_wait(time)

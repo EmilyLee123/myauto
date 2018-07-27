@@ -29,7 +29,7 @@ config_element = {
             "密码输入框": ['xpath', '//*[@id="password"]'],
             "登录按钮": ['xpath', '//*[@id="submit"]'],
             "使用验证码登录": ['xpath', '//*[@id="login_form"]/div[2]/p'],
-            "错误提示": ['xpath', '//*[@id="login_error"]'],
+            "错误提示": ['id', 'login_error'],
             "版权所有": ['xpath', '/html/body/div[1]/div[3]/footer/div[1]/div/p'],
             "商标名称": ['xpath', '/html/body/div[1]/div[3]/footer/div[2]/div[1]/p'],
 

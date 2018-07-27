@@ -1,7 +1,7 @@
 from common.logger import Logging
 from testCase.myunittest import cmslogin_test
 from testFile.elementAndText import Page_Text
-
+"""重复"""
 logger = Logging("CMSLoginTest").getlog()
 
 class CMSLoginTest(cmslogin_test):

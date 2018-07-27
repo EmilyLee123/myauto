@@ -57,7 +57,7 @@ class Excel():
         logger_excel.info("读取EXCEL表中的数据：{}".format(list))
         return list
     def write_excel(self,datas,row = 1):
-        """写如excel表格"""
+        """写入excel表格"""
         new_excel = copy(self.workbook)
         ws = new_excel.get_sheet(0)
         if len(datas) == 0:

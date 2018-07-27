@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/page_obj/login/live_login.py" line="60" />
+    <bookmark url="file://$PROJECT_DIR$/page_obj/login/live_login.py" line="59" />
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="12dfcd0d-9f99-4469-a3b1-96e73cc114b8" name="Default" comment="" />
@@ -20,28 +20,20 @@
       <file leaf-file-name="CMS_login_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testCase/login/CMS_login_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="322">
+              <caret line="44" column="66" lean-forward="true" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_obj/base.py">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4746">
-              <caret line="233" column="27" lean-forward="false" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="42">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -50,9 +42,63 @@
       <file leaf-file-name="cms_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_obj/login/cms_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            <state relative-caret-position="290">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/login/admin_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="187" column="18" lean-forward="false" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="live_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_obj/login/live_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-693">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="live_login_t.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/login/live_login_t.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,21 +106,9 @@
       <file leaf-file-name="elementAndText.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testFile/elementAndText.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+            <state relative-caret-position="136">
+              <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myunittest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/myunittest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url</find>
       <find>窗口</find>
       <find>文本</find>
       <find>get</find>
@@ -119,6 +152,8 @@
       <find>pie</find>
       <find>move</find>
       <find>#root &gt; div &gt; div.main___2jCiI &gt; form &gt; div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation &gt; div.ant-tabs-bar &gt; div &gt; div &gt; div &gt; div &gt; div.ant-tabs-tab-active.ant-tabs-tab</find>
+      <find>@@@@@@@@@@</find>
+      <find>账号输入框</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -150,37 +185,37 @@
         <option value="$PROJECT_DIR$/testCase/livelist/livelist_t.py" />
         <option value="$PROJECT_DIR$/test/fun.py" />
         <option value="$PROJECT_DIR$/test/test1.py" />
-        <option value="$PROJECT_DIR$/common/function.py" />
         <option value="$PROJECT_DIR$/common/logger.py" />
         <option value="$PROJECT_DIR$/test/99.py" />
         <option value="$PROJECT_DIR$/test/test.txt" />
         <option value="$PROJECT_DIR$/test/test11.py" />
         <option value="$PROJECT_DIR$/test/testread.py" />
-        <option value="$PROJECT_DIR$/page_obj/base.py" />
         <option value="$PROJECT_DIR$/lmytest/demo.py" />
         <option value="$PROJECT_DIR$/common/drive.py" />
         <option value="$PROJECT_DIR$/testCase/login/admin_login_t.py" />
         <option value="$PROJECT_DIR$/page_obj/login/admin_login.py" />
         <option value="$PROJECT_DIR$/lmytest/demo01.py" />
         <option value="$PROJECT_DIR$/lmytest/shuiji1.py" />
-        <option value="$PROJECT_DIR$/page_obj/login/live_login.py" />
-        <option value="$PROJECT_DIR$/testCase/login/live_login_t.py" />
         <option value="$PROJECT_DIR$/case_list.txt" />
         <option value="$PROJECT_DIR$/testCase/myunittest.py" />
-        <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/common/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/run_all.py" />
         <option value="$PROJECT_DIR$/test/testbaidu.py" />
         <option value="$PROJECT_DIR$/lmytest/CMS_login_test.py" />
-        <option value="$PROJECT_DIR$/testCase/login/CMS_login_test.py" />
-        <option value="$PROJECT_DIR$/page_obj/login/cms_login.py" />
+        <option value="$PROJECT_DIR$/common/function.py" />
+        <option value="$PROJECT_DIR$/page_obj/login/live_login.py" />
+        <option value="$PROJECT_DIR$/testCase/login/live_login_t.py" />
+        <option value="$PROJECT_DIR$/page_obj/base.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/testFile/elementAndText.py" />
+        <option value="$PROJECT_DIR$/page_obj/login/cms_login.py" />
+        <option value="$PROJECT_DIR$/testCase/login/CMS_login_test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="865" />
-    <option name="y" value="146" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="842" />
   </component>
@@ -200,6 +235,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +247,11 @@
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +278,7 @@
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="201807251815" type="462c0819:PsiDirectoryNode" />
+              <item name="201807271912" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
@@ -247,32 +288,37 @@
             <path>
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
               <item name="testFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="﻿function_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="﻿function_test" type="462c0819:PsiDirectoryNode" />
               <item name="testFile" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/HexoBlogs" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\live\function_test(1)\﻿function_test\driver" />
+      <recent name="F:\project\live\function_test(1)\﻿function_test\testFile\login" />
       <recent name="F:\project\live\function_test(1)\﻿function_test\testCase\login" />
       <recent name="$PROJECT_DIR$/testFile/login" />
       <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/common" />
-      <recent name="$PROJECT_DIR$/testFile/image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/testCase/createlive" />
@@ -295,6 +341,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run_all">
+    <configuration name="cms_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="eliteu_live_auto" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_obj/login/cms_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,7 +405,7 @@
       <option name="_new_target" value="&quot;CMS_login_test.CMSLoginTest.test_login_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for live_login_t.liveLoginTest.test_login_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -352,37 +416,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="eliteu_live_auto" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;live_login_t.liveLoginTest.test_login_2&quot;" />
+      <option name="_new_target" value="&quot;CMS_login_test.CMSLoginTest.test_login_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in CMS_login_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="eliteu_live_auto" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/login/CMS_login_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for live_login_t.liveLoginTest.test_login_2" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in CMS_login_test.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_1" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.cms_login" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in CMS_login_test.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for live_login_t.liveLoginTest.test_login_2" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.cms_login" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for CMS_login_test.CMSLoginTest.test_login_1" />
       </list>
     </recent_temporary>
   </component>
@@ -404,35 +454,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest - 2018.07.25 at 17h 45m 48s.xml">
-      <configuration name="Unittests for CMS_login_test.CMSLoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 10m 19s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_1 - 2018.07.25 at 18h 01m 33s.xml">
-      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_1" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 12m 56s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 47m 54s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 15m 29s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 52m 33s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 17m 12s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 53m 51s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 18m 16s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 54m 10s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 22m 43s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 54m 32s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 40m 26s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 56m 01s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 56m 25s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 57m 27s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 58m 14s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_CMS_login_test_py - 2018.07.25 at 17h 57m 59s.xml">
-      <configuration name="Unittests in CMS_login_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_CMS_login_test_CMSLoginTest_test_login_2 - 2018.07.27 at 17h 59m 20s.xml">
+      <configuration name="Unittests for CMS_login_test.CMSLoginTest.test_login_2" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -445,25 +495,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2230444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4013683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -486,12 +536,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/common/utils.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/book.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlutils/copy.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/-1199943127/builtins.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/click-6.7-py3.6.egg/click/_compat.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/testFile/login/__init__.py">
@@ -512,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -571,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/createlive/createlive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="205" column="30" lean-forward="false" selection-start-line="205" selection-start-column="30" selection-end-line="205" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_obj/livelist/livelist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -589,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="823" column="8" lean-forward="false" selection-start-line="823" selection-start-column="8" selection-end-line="823" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/login/live_login_t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -629,17 +652,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="192" column="26" lean-forward="false" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,17 +722,102 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/report/201807251731/result.html" />
-    <entry file="file://$PROJECT_DIR$/lmytest/CMS_login_test.py">
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="-14183">
+          <caret line="192" column="26" lean-forward="false" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/login/admin_login.py">
+    <entry file="file://$PROJECT_DIR$/report/201807251815/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lmytest/CMS_login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/python/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26649">
+          <caret line="1274" column="8" lean-forward="false" selection-start-line="1274" selection-start-column="8" selection-end-line="1274" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/201807271052/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/createlive/createlive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="205" column="30" lean-forward="false" selection-start-line="205" selection-start-column="30" selection-end-line="205" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/201807271146/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/myunittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="187" column="18" lean-forward="false" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testFile/elementAndText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,64 +825,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4746">
-          <caret line="233" column="27" lean-forward="false" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_obj/login/live_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="-693">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/login/live_login_t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/login/admin_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_obj/login/cms_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/myunittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="290">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testFile/elementAndText.py">
+    <entry file="file://$PROJECT_DIR$/report/201807271750/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="273">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="322">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/login/CMS_login_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="322">
+          <caret line="44" column="66" lean-forward="true" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

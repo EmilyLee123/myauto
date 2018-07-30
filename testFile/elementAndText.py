@@ -42,6 +42,8 @@ config_element = {
             "验证码错误提示": ["xpath", '//*[@id="showError"]'],
             "使用账号密码登录": ["xpath", '//*[@id="login_code_form"]/div[2]/p'],
 
+            "课程": ['id', 'course-index-tabs'],
+
         },
         "live_list": {
             "title": ["css", "#root > div > div > div.ant-layout > div.header___1L3tU.ant-layout-header > div.companyname___1f2e8"],

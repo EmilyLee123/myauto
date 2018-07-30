@@ -1,8 +1,9 @@
-from time import sleep
+
 
 from common.logger import Logging
 from page_obj.base import Page
 from readConfig import ReadConfig
+
 
 logger = Logging("cms_Login").getlog()
 class cmsLogin(Page):
@@ -32,8 +33,8 @@ class cmsLogin(Page):
         return list
 
     #登录功能操作
-    def live_login_fun(self, username, password):
-        #登录状态操作
+    def cms_login_msg(self, username, password):
+        """登录状态操作"""
 
         self.send_keys("cms_login", "账号输入框", username)
         self.send_keys("cms_login", "密码输入框", password)
@@ -43,15 +44,24 @@ class cmsLogin(Page):
             return error
 
 
-# class login(Page):
-#     """登录的通用方法"""
-#     def cms_login1(self):
-#         config = ReadConfig()
-#         # 从配置文件获取账户和密码
-#         username = config.getConfig("username")
-#         password = config.getConfig("password")
-#         self.send_keys("cms_login", "账号输入框", username)
-#         self.send_keys("cms_login", "密码输入框", password)
-#         self.click("cms_login", "登录")
+    def cms_login_test(self):
+        """登录的通用方法"""
+        config = ReadConfig()
+        # 从配置文件获取账户和密码
+        username = config.getConfig("username")
+        # print(username)
+        password = config.getConfig("password")
+        # print(password)
+        self.send_keys("cms_login", "账号输入框", username)
+        self.send_keys("cms_login", "密码输入框", password)
+        self.click("cms_login", "登录按钮")
+        self.wait_time(1)
 
+        g_url = self.get_url()
+        print("获取的地址:%s" % g_url)
 
+        t_url = 'https://course.beta.e-ducation.cn/home/'
+        print("实际的地址:%s" % t_url)
+
+        self.check_url(g_url, t_url, '登录')
+        return self.check_url(g_url, t_url, '登录')

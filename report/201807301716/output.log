@@ -1,0 +1,37 @@
+2018-07-30 17:16:58,307 - Driver - INFO - 打开谷歌浏览器
+2018-07-30 17:16:58,309 - Driver - INFO - 隐式等待元素时间为：15
+2018-07-30 17:17:00,457 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-07-30 17:17:02,194 - CMSLoginTest - INFO - 实际文本：帮助，预期文本：帮助
+2018-07-30 17:17:02,194 - CMSLoginTest - INFO - 实际文本：登录，预期文本：登录
+2018-07-30 17:17:02,194 - CMSLoginTest - INFO - 实际文本：登录到课程管理中心，预期文本：登录到课程管理中心
+2018-07-30 17:17:02,194 - CMSLoginTest - INFO - 实际文本：邮箱或手机号码，预期文本：邮箱或手机号码
+2018-07-30 17:17:02,194 - CMSLoginTest - INFO - 实际文本：例如：username@domain.com或者13800138000，预期文本：例如：username@domain.com或者13800138000
+2018-07-30 17:17:02,195 - CMSLoginTest - INFO - 实际文本：密码，预期文本：密码
+2018-07-30 17:17:02,195 - CMSLoginTest - INFO - 实际文本：登录到课程管理中心，预期文本：登录到课程管理中心
+2018-07-30 17:17:02,195 - CMSLoginTest - INFO - 实际文本：使用验证码登录，预期文本：使用验证码登录
+2018-07-30 17:17:02,195 - CMSLoginTest - INFO - 实际文本：© 2018 英荔教育.，预期文本：© 2018 英荔教育.
+2018-07-30 17:17:02,195 - CMSLoginTest - INFO - 实际文本：EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。，预期文本：EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。
+2018-07-30 17:17:05,334 - Page - INFO - 关闭浏览器
+2018-07-30 17:17:11,538 - Driver - INFO - 打开谷歌浏览器
+2018-07-30 17:17:11,540 - Driver - INFO - 隐式等待元素时间为：15
+2018-07-30 17:17:13,486 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-07-30 17:17:13,487 - Excel - INFO - 加载login/cmsloginexcel表
+2018-07-30 17:17:13,504 - Excel - INFO - 读取EXCEL表中的数据：[{'': '账号为空', 'serial_number': 'login100001', 'password': '', 'expected_result': '', 'username': '', 'description': '账号和密码不能为空'}, {'': '密码为空', 'serial_number': 'login100002', 'password': '', 'expected_result': '', 'username': 'ladmin04@lmy.cn', 'description': '账号和密码不能为空'}, {'': '账号不正确', 'serial_number': 'login100003', 'password': 1, 'expected_result': '', 'username': 'lmy@1', 'description': '账号或密码错误。'}, {'': '密码错误', 'serial_number': 'login100004', 'password': 123, 'expected_result': '', 'username': 'ladmin04@lmy.cn', 'description': '账号或密码错误。'}, {'': '学员账号', 'serial_number': 'login100005', 'password': 123456, 'expected_result': '', 'username': 'cs004@auto.cn', 'description': '非常抱歉，该账户尚未被授予登录权限。'}]
+2018-07-30 17:17:13,504 - CMSLoginTest - INFO - 用例开始》本次用例编号login100001
+2018-07-30 17:17:16,472 - CMSLoginTest - INFO - 用例结束《
+2018-07-30 17:17:16,472 - CMSLoginTest - INFO - 用例开始》本次用例编号login100002
+2018-07-30 17:17:19,404 - CMSLoginTest - INFO - 用例结束《
+2018-07-30 17:17:19,404 - CMSLoginTest - INFO - 用例开始》本次用例编号login100003
+2018-07-30 17:17:22,303 - CMSLoginTest - INFO - 用例结束《
+2018-07-30 17:17:22,303 - CMSLoginTest - INFO - 用例开始》本次用例编号login100004
+2018-07-30 17:17:25,238 - CMSLoginTest - INFO - 用例结束《
+2018-07-30 17:17:25,238 - CMSLoginTest - INFO - 用例开始》本次用例编号login100005
+2018-07-30 17:17:28,176 - CMSLoginTest - INFO - 用例结束《
+2018-07-30 17:17:31,336 - Page - INFO - 关闭浏览器
+2018-07-30 17:17:37,254 - Driver - INFO - 打开谷歌浏览器
+2018-07-30 17:17:37,256 - Driver - INFO - 隐式等待元素时间为：15
+2018-07-30 17:17:39,391 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-07-30 17:17:43,325 - Page - INFO - 登录 btn is good
+2018-07-30 17:17:43,325 - Page - INFO - 登录 btn is good
+2018-07-30 17:17:43,325 - CMSLoginTest - INFO - 登录成功
+2018-07-30 17:17:46,470 - Page - INFO - 关闭浏览器

@@ -2,6 +2,7 @@ import unittest
 
 from common.drive import Driver
 from common.function import Excel
+
 from page_obj.createlive.createlive import createLive
 
 from page_obj.livelist.livelist import Livelist
@@ -49,12 +50,12 @@ class cmslogin_test(myunittest):
     """cms登录功能"""
     def setUp(self):
         driver = Driver(self.browser).open_browser()
-        self.cmslogin = cmsLogin(driver)
-        self.cmslogin.open(self.url)
+        self.cmsLogin = cmsLogin(driver)
+        self.cmsLogin.open(self.url)
         self.AssertionError = []
 
     def tearDown(self):
-        self.cmslogin.quit()
+        self.cmsLogin.quit()
         self.assertEqual([], self.AssertionError)
 
 class livelist(myunittest,):

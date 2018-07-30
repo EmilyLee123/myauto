@@ -13,8 +13,8 @@ def get_case_list():
     for value in list.readlines():
         data = str(value)
         if data != "" and not data.startswith("#"):
-            cases.append(data.replace("\n",""))
-    print(cases,"cases")
+            cases.append(data.replace("\n", ""))
+    print(cases, "cases")
     return cases
 
 

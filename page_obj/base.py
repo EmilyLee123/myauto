@@ -427,22 +427,23 @@ class Page():
         return enabled
 
     #点选框是否为选中状态
-    def is_select(self,page,element):
+    def is_select(self, page, element):
         """点选框是否为选中状态"""
         select = self.find_element(page,element).is_selected()
         logger.info("{}模块下的{}元素是否为点选状态：{}".format(page, element, select))
         return select
 
     def check_url(self, now_url, target_url, fun):
-        """对比url选取最后一个一个/分隔内容"""
+        """对比url选取最后一个/分隔内容"""
         now_url = now_url.split('/')
         target_url = target_url.split('/')
 
-        try:
-            assert now_url[-2] == target_url[-2]
+        if now_url[-2] == target_url[-2]:
             logger.info('%s btn is good' % fun)
-        except:
+            return True
+        else:
             logger.error('%s btn is error' % fun)
+            return False
             #logger.info('%s btn is error' % fun)
 
     def check_string(self, now_string, real_string):

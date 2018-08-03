@@ -1,0 +1,50 @@
+2018-08-03 14:27:51,512 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:27:51,513 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:27:57,746 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:27:58,549 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:27:58,550 - Page - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+
+2018-08-03 14:28:04,536 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:28:04,538 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:28:14,731 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:28:15,533 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:28:15,533 - Page - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+
+2018-08-03 14:28:20,853 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:28:20,854 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:28:51,326 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:29:07,184 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:29:07,184 - Page - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+
+2018-08-03 14:29:13,574 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:29:13,575 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:29:44,712 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:30:00,557 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:30:00,558 - Page - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+
+2018-08-03 14:30:05,920 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:30:05,921 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:30:36,696 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:30:52,514 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:30:52,514 - Page - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+
+2018-08-03 14:30:58,566 - Driver - INFO - 打开谷歌浏览器
+2018-08-03 14:30:58,567 - Driver - INFO - 隐式等待元素时间为：15
+2018-08-03 14:31:29,531 - Page - INFO - 浏览器中输入域名：https://course.beta.e-ducation.cn/signin
+2018-08-03 14:31:45,384 - Page - ERROR - @未发现元素CSS为：#username的元素@
+2018-08-03 14:31:45,384 - Page - ERROR - Message: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64)
+

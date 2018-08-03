@@ -1,19 +1,6 @@
 #config_element对应模块的所有的元素定位
 config_element = {
-        "live_login": {#登录
-                "登录框图片": ["css", "div.login-panel-header>img"],
-                "账号文本": ["css", "#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-bar > div > div > div > div > div.ant-tabs-tab-active.ant-tabs-tab"],
-                "账号输入框": ["css", "#username"],
-                "密码输入框": ["css", "#password"],
-                "自动登录": ["css", "#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > label > span:nth-child(2)"],
-                "忘记密码": ["css", "#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > a"],
-                "登录": ["css", "#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > button"],
-                "账户错误提示": ["css", "#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-content.ant-tabs-content-no-animated > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div:nth-child(1) > div > div > div"],
-                "密码错误提示": ["css", "#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-content.ant-tabs-content-no-animated > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-row.ant-form-item.ant-form-item-with-help > div > div > div"],
-                "错误提示": ["xpath", '//*[@id="root"]/div/div[2]/form/div[1]/div[2]/div[1]/div[2]/div/div/div'],
-               
 
-        },
         "cms_login":{
             #cms登录包含验证码登录
             "图标": ['xpath', '//*[@id="view-top"]/header/div[1]/h1/a/img'],
@@ -45,6 +32,22 @@ config_element = {
             "课程": ['id', 'course-index-tabs'],
 
         },
+
+
+        "live_login": {  # 登录
+            "登录框图片": ["css", "div.login-panel-header>img"],
+            "账号文本": ["css","#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-bar > div > div > div > div > div.ant-tabs-tab-active.ant-tabs-tab"],
+            "账号输入框": ["css", "#username"],
+            "密码输入框": ["css", "#password"],
+            "自动登录": ["css","#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > label > span:nth-child(2)"],
+            "忘记密码": ["css","#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > a"],
+            "登录": ["css","#root > div > div.main___2jCiI > form > div.ant-row.ant-form-item.additional___2VbIO > div > div > span > button"],
+            "账户错误提示": ["css","#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-content.ant-tabs-content-no-animated > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div:nth-child(1) > div > div > div"],
+            "密码错误提示": ["css","#root > div > div.main___2jCiI > form > div.ant-tabs.ant-tabs-top.tabs___R4MnG.ant-tabs-line.ant-tabs-no-animation > div.ant-tabs-content.ant-tabs-content-no-animated > div.ant-tabs-tabpane.ant-tabs-tabpane-active > div.ant-row.ant-form-item.ant-form-item-with-help > div > div > div"],
+            "错误提示": ["xpath", '//*[@id="root"]/div/div[2]/form/div[1]/div[2]/div[1]/div[2]/div/div/div'],
+
+        },
+
         "live_list": {
             "title": ["css", "#root > div > div > div.ant-layout > div.header___1L3tU.ant-layout-header > div.companyname___1f2e8"],
             "直播列表": ["css", "#root > div > div > div.ant-layout > div.ant-layout-content > div:nth-child(1) > div > div > div > div.ant-card-head > div > div.ant-card-head-title"],
@@ -129,6 +132,31 @@ config_element = {
 }
 #Page_Text 存放对应模块的所有文本信息
 Page_Text = {
+
+        "cms_login": [
+            "帮助",
+            "登录",
+            "登录到课程管理中心",
+            "邮箱或手机号码",
+            "例如：username@domain.com或者13800138000",
+            "密码",
+            "登录到课程管理中心",
+            "使用验证码登录",
+            "© 2018 英荔教育.",
+            "EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。",
+
+        ],
+
+        "cms_login1": [
+            "邮箱或手机号码",
+            "例如：username@domain.com或者13800138000",
+            "验证码",
+            "获取验证码",
+            "登录到课程管理中心",
+            "使用账号密码登录",
+
+        ],
+
         "live_login": [
             "账户密码登录",
             "crews",
@@ -204,29 +232,7 @@ Page_Text = {
             "验证码登录"
 
         ],
-        "cms_login": [
-            "帮助",
-            "登录",
-            "登录到课程管理中心",
-            "邮箱或手机号码",
-            "例如：username@domain.com或者13800138000",
-            "密码",
-            "登录到课程管理中心",
-            "使用验证码登录",
-            "© 2018 英荔教育.",
-            "EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。",
 
-        ],
-
-        "cms_login1": [
-            "邮箱或手机号码",
-            "例如：username@domain.com或者13800138000",
-            "验证码",
-            "获取验证码",
-            "登录到课程管理中心",
-            "使用账号密码登录",
-
-    ],
 
 
     }

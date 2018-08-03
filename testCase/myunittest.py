@@ -31,7 +31,23 @@ class myunittest(unittest.TestCase):
         excel_data = Excel(dataname)
         excel_data.write_excel(datas, row)
 
+class cmslogin_test(myunittest):
+    """cms登录功能"""
+    def setUp(self):
+        driver = Driver(self.browser).open_browser()
+        self.cmsLogin = cmsLogin(driver)
+        self.cmsLogin.open(self.url)
+        self.AssertionError = []
 
+    def tearDown(self):
+        self.cmsLogin.quit()
+        self.assertEqual([], self.AssertionError)
+
+class createcourse(myunittest):
+    """新建课程"""
+    def setUp(self):
+        driver = Driver(self.browser).open_browser()
+        self.
 
 
 class livelogin_test(myunittest):
@@ -46,17 +62,6 @@ class livelogin_test(myunittest):
         self.livelogin.quit()
         self.assertEqual([], self.AssertionError)
 
-class cmslogin_test(myunittest):
-    """cms登录功能"""
-    def setUp(self):
-        driver = Driver(self.browser).open_browser()
-        self.cmsLogin = cmsLogin(driver)
-        self.cmsLogin.open(self.url)
-        self.AssertionError = []
-
-    def tearDown(self):
-        self.cmsLogin.quit()
-        self.assertEqual([], self.AssertionError)
 
 class livelist(myunittest,):
     #直播列表

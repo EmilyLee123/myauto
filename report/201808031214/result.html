@@ -130,9 +130,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">CMS测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 李梦妍</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-07-25 16:33:58</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:15.186326</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 1，失败 1，通过率= 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-08-03 12:14:12</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:55.782316</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 3，通过率= 100.00%</p>
 
 <p class='description'>浏览器：Chrome</p>
 </div>
@@ -140,10 +140,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 3 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -163,43 +163,79 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='failClass warning'>
-    <td>login.CMS_login_test.CMSLoginTest: CMS登录测试用例</td>
-    <td class="text-center">1</td>
+<tr class='passClass warning'>
+    <td>login.CMS_login_test.CMSLoginTest: CMS登录页面文字检查测试用例</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
     <td class="text-center">0</td>
-    <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='ft1_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_login_1: 页面文本验证</div></td>
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_1: 页面文本验证</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou-->
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
-    <div id='div_ft1_1' class="collapse">  
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  
 
     <!-- 默认展开错误信息 -Findyou 
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
-    <div id='div_ft1_1' class="collapse in">-->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">-->
     <pre>
     
-ft1_1: [None, None, '登录到课程管理中心', '邮箱或手机号码', '密码', None, None, '© 2018 英荔教育.', 'EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。']
-Traceback (most recent call last):
-  File "F:\project\live\function_test(1)\﻿function_test\testCase\myunittest.py", line 58, in tearDown
-    self.assertEqual([], self.AssertionError)
-AssertionError: Lists differ: [] != ['实际文本：None，预期文本：帮助', '实际文本：None，预期文本：登录',[76 chars]码登录']
+pt1_1: 期望的值: ['帮助', '登录', '登录到课程管理中心', '邮箱或手机号码', '例如：username@domain.com或者13800138000', '密码', '登录到课程管理中心', '使用验证码登录', '© 2018 英荔教育.', 'EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。']
+获取的值: ['帮助', '登录', '登录到课程管理中心', '邮箱或手机号码', '例如：username@domain.com或者13800138000', '密码', '登录到课程管理中心', '使用验证码登录', '© 2018 英荔教育.', 'EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。']
 
-Second list contains 5 additional elements.
-First extra element 0:
-'实际文本：None，预期文本：帮助'
 
-- []
-+ ['实际文本：None，预期文本：帮助',
-+  '实际文本：None，预期文本：登录',
-+  '实际文本：邮箱或手机号码，预期文本：邮箱或手机',
-+  '实际文本：None，预期文本：登录到课程管理中心',
-+  '实际文本：None，预期文本：使用验证码登录']
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_2: 登录错误提示语验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in">-->
+    <pre>
+    
+pt1_2: 期望值 账号和密码不能为空
+获取值 账号和密码不能为空
+期望值 账号和密码不能为空
+获取值 账号和密码不能为空
+期望值 账号或密码错误。
+获取值 账号或密码错误。
+期望值 账号或密码错误。
+获取值 账号或密码错误。
+期望值 非常抱歉，该账户尚未被授予登录权限。
+获取值 非常抱歉，该账户尚未被授予登录权限。
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_3: 登录功能验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">-->
+    <pre>
+    
+pt1_3: 获取的地址:https://course.beta.e-ducation.cn/home/
+实际的地址:https://course.beta.e-ducation.cn/home/
 
 
     </pre>
@@ -209,11 +245,11 @@ First extra element 0:
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>1</td>
+    <td>3</td>
+    <td>3</td>
     <td>0</td>
-    <td>1</td>
     <td>0</td>
-    <td>通过率：0.00%</td>
+    <td>通过率：100.00%</td>
 </tr>
 </table>
 
@@ -435,7 +471,7 @@ First extra element 0:
 
         }
 
-        var chartData = [[0,"#f0ad4e","错误"], [1,"#d9534f", "失败"], [0,"#5cb85c","成功"],];
+        var chartData = [[0,"#f0ad4e","错误"], [0,"#d9534f", "失败"], [3,"#5cb85c","成功"],];
 
         goChart(chartData);
 

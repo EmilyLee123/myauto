@@ -1,1 +1,1 @@
-login/CMS_login_test
+createcourse/createcourse_test

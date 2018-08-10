@@ -65,3 +65,23 @@ class cmsLogin(Page):
 
         self.check_url(g_url, t_url, '登录')
         return self.check_url(g_url, t_url, '登录')
+
+
+class login_ccreate(Page):
+    def course_login(self):
+        """创建直播的登录方法"""
+        config = ReadConfig()
+        # 从配置文件获取账户和密码
+        username = config.getConfig("username")
+        password = config.getConfig("password")
+        self.send_keys("cms_login", "账号输入框", username)
+
+        self.send_keys("cms_login", "密码输入框", password)
+        self.click("cms_login", "登录按钮")
+        self.wait_time(0.8)
+
+        while self.is_displayed('course_create', '创建课程标题') == False:
+            self.click("cms_list", "创建课程按钮")
+            print(self.is_displayed('course_create', '创建课程标题'))
+        # else:
+        #     logger.info('点击按钮成功')

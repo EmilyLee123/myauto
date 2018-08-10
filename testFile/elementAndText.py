@@ -32,6 +32,31 @@ config_element = {
             "课程": ['id', 'course-index-tabs'],
 
         },
+        "cms_list":{
+            "创建课程按钮": ["css", "#content > div.wrapper-mast.wrapper > header > nav > ul > li > a.button.new-button.new-course-button"],
+
+        },
+
+        "course_create":{
+            "创建课程标题": ["css", "#create-course-form > div.wrapper-form > h3"],
+            "课程名称": ["css", "#field-course-name > label"],
+            "课程名输入框": ["css", "#new-course-name"],
+            "课程名备注": ["css", "#tip-new-course-name"],
+            "组织机构": ["css", "#field-organization > label"],
+            "组织机构输入框": ["css", "#new-course-org"],
+            "组织机构备注": ["css", "#tip-new-course-org"],
+            "课程编号": ["css", "#field-course-number > label"],
+            "课程编号输入框": ["css", "#new-course-number"],
+            "课程编号备注": ["css", "#tip-new-course-number"],
+            "开课时间": ["css", "#field-course-run > label"],
+            "开课时间输入框": ["css", "#new-course-run"],
+            "开课时间备注": ["css", "#tip-new-course-run"],
+            "课程分类": ["css", "#field-course-subject > label"],
+            "新增分类": ["css", "#create-course-form > div.wrapper-form > fieldset > ol > div > div.add-coueseClassify-p"],
+            "创建": ["css", "#create-course-form > div.actions > input.action.action-primary.new-course-save"],
+            "取消": ["css", "#create-course-form > div.actions > input.action.action-secondary.action-cancel.new-course-cancel"],
+
+        },
 
 
         "live_login": {  # 登录
@@ -51,8 +76,6 @@ config_element = {
         "live_list": {
             "title": ["css", "#root > div > div > div.ant-layout > div.header___1L3tU.ant-layout-header > div.companyname___1f2e8"],
             "直播列表": ["css", "#root > div > div > div.ant-layout > div.ant-layout-content > div:nth-child(1) > div > div > div > div.ant-card-head > div > div.ant-card-head-title"],
-            "开始直播": ["xpath", '//*[@id="root"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/div/div[1]/ul/li[1]/a'],
-            "更多操作": ["xpath", '//*[@id="root"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div[1]/div/div[1]/ul/li[2]/a'],
             "创建直播": ["xpath", '//*[@id="root"]/div/div/div[2]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/div/a/button/span'],
             "页数": ["css", "#root > div > div > div.ant-layout > div.ant-layout-content > div:nth-child(1) > div > div > div > div.ant-card-body > div > div.ant-list-pagination > ul > li.ant-pagination-options > div"],
             "创建直播按钮": ["css", 'button.ant-btn.ant-btn-primary'],
@@ -154,6 +177,27 @@ Page_Text = {
             "获取验证码",
             "登录到课程管理中心",
             "使用账号密码登录",
+
+        ],
+
+        "course_create_string":[
+            "创建新课程",
+            "课程名称",
+            "例如，计算机科学导论",
+            "课程的公开显示名称。您可以在“高级设置”中对其进行修改。",
+            "组织机构",
+            "例如：XX大学或XX机构",
+            "开设该课程的组织名称。注意：课程网址将包含该组织名称。您可以在“高级设置”中对其进行修改。",
+            "课程编号",
+            "例如： CS101",
+            "这是组织内该课程的专有编号。注意：课程网址包含该编号，请勿输入空格和特殊字符。该编号不可修改。",
+            "开课时间",
+            "例如：2014_T1",
+            "课程开课时间。注意：课程网址包含该时间，请勿输入空格和特殊字符。该时间不可修改。",
+            "课程分类",
+            "+新增分类",
+            "创建",
+            "取消",
 
         ],
 

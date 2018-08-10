@@ -2,12 +2,12 @@ import unittest
 
 from common.drive import Driver
 from common.function import Excel
-
+from page_obj.createcourse.createcourse import createCourse
 from page_obj.createlive.createlive import createLive
 
 from page_obj.livelist.livelist import Livelist
 from page_obj.login.admin_login import AdminLogin
-from page_obj.login.cms_login import cmsLogin
+from page_obj.login.cms_login import cmsLogin, login_ccreate
 
 from page_obj.login.live_login import liveLogin, login_create, login
 
@@ -43,11 +43,19 @@ class cmslogin_test(myunittest):
         self.cmsLogin.quit()
         self.assertEqual([], self.AssertionError)
 
-class createcourse(myunittest):
+class createcourse_t(myunittest):
     """新建课程"""
     def setUp(self):
         driver = Driver(self.browser).open_browser()
-        self.
+        self.createCourse = createCourse(driver)
+        self.createCourse.open(self.url)
+        self.login_ccreate = login_ccreate(driver)
+        self.login_ccreate.course_login()
+        self.AssertionError = []
+
+    def tearDown(self):
+        self.createCourse.quit()
+        self.assertEqual([], self.AssertionError)
 
 
 class livelogin_test(myunittest):

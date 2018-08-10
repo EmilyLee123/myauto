@@ -164,6 +164,7 @@ class Page():
         """点击事件"""
 
         el = self.find_element(page, element)
+        print(page,element,11111111111111111111111111111111111)
         el.click()
         self.wait_time(1)
 

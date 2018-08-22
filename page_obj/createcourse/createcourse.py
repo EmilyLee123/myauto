@@ -1,17 +1,18 @@
+import random
+
 from common.logger import Logging
 from page_obj.base import Page
 from readConfig import ReadConfig
 
-logger = Logging("createlive").getlog()
-
+logger = Logging("createCourse").getlog()
+config = ReadConfig()
 class createCourse(Page):
 
     def create_course_texts(self):
         """创建课程的文本验证"""
 
-        #self.wait_time(2)
+        self.wait_time(2)
         list = []
-        #self.click("cms_list", "创建课程按钮")
         list.append(self.text("course_create", "创建课程标题"))
         list.append(self.text("course_create", "课程名称"))
         list.append(self.element_type_value("course_create", "课程名输入框"))
@@ -33,3 +34,34 @@ class createCourse(Page):
         return list
 
         #self.wait_time(2)
+
+    def input_course_test(self):
+        """创建课程输入课程名"""
+
+        self.send_keys("course_create", "课程名输入框", "自动化测试课程")
+        self.send_keys("course_create", "组织机构输入框", "lmyAutoTest")
+        cid = random.randint(0, 999999)
+        #cid = "001"
+        self.send_keys("course_create", "课程编号输入框", cid)
+        self.send_keys("course_create", "开课时间输入框", "2018")
+        self.click("course_create", "创建")
+        while self.is_displayed("cms_list", "重复提示") == True:
+            self.send_keys("course_create", "课程编号输入框", cid)
+            self.click("course_create", "创建")
+        else:
+            logger.info("创建课程成功")
+
+        self.browser_page_handle()
+        print("课程编号:lmyAutoTest+" + "%s" % cid + "+2018")
+        el = self.find_elements('course_create', '课程编号S')
+        cid = str(cid)
+        print(type(cid),777)
+        list = []
+        for n in range(len(el)):
+            coursenumbers = el[n].text
+            list.append(coursenumbers)
+
+        if cid in list:
+            logger.info('创建成功')
+        else:
+            logger.error('创建失败.......................')

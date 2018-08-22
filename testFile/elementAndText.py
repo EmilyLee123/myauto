@@ -34,7 +34,7 @@ config_element = {
         },
         "cms_list":{
             "创建课程按钮": ["css", "#content > div.wrapper-mast.wrapper > header > nav > ul > li > a.button.new-button.new-course-button"],
-
+            "重复提示": ["css", "#course_creation_error > p"]
         },
 
         "course_create":{
@@ -55,6 +55,8 @@ config_element = {
             "新增分类": ["css", "#create-course-form > div.wrapper-form > fieldset > ol > div > div.add-coueseClassify-p"],
             "创建": ["css", "#create-course-form > div.actions > input.action.action-primary.new-course-save"],
             "取消": ["css", "#create-course-form > div.actions > input.action.action-secondary.action-cancel.new-course-cancel"],
+            "课程编号S": ['css', 'div.course-metadata>span.course-num.metadata-item>span.value'],
+            "返回首页": ['css', '#view-top > header > div.wrapper.wrapper-l > h1 > a > img'],
 
         },
 

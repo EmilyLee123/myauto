@@ -49,19 +49,22 @@ class createCourse(Page):
             self.send_keys("course_create", "课程编号输入框", cid)
             self.click("course_create", "创建")
         else:
-            logger.info("创建课程成功")
+            logger.info("成功创建课程")
 
+        #后退,默认值为后退
         self.browser_page_handle()
+        #刷新页面
+        self.browser_page_handle(type="0")
         print("课程编号:lmyAutoTest+" + "%s" % cid + "+2018")
         el = self.find_elements('course_create', '课程编号S')
-        cid = str(cid)
-        print(type(cid),777)
+        #print(type(cid), cid, 555)
+
         list = []
         for n in range(len(el)):
             coursenumbers = el[n].text
             list.append(coursenumbers)
+        print(list)
 
-        if cid in list:
-            logger.info('创建成功')
-        else:
-            logger.error('创建失败.......................')
+        return cid, list
+
+

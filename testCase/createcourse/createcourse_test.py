@@ -1,4 +1,3 @@
-import cid
 
 from common.logger import Logging
 from page_obj.base import Page
@@ -10,12 +9,12 @@ logger = Logging("createCourse").getlog()
 class createCoursetest(createcourse_t, Page):
     """创建课程测试用例"""
     def test_texts_course(self):
-        """文本验证"""
+        """创建课程文本验证"""
 
         reality_text = self.createCourse.create_course_texts()
         anticipated_text = Page_Text["course_create_string"]
-        print("111", reality_text)
-        print("222", anticipated_text)
+        # print("真实值：", reality_text)
+        # print("期望值：", anticipated_text)
         for reality, anticipated in zip(reality_text, anticipated_text):
             try:
                 self.assertEqual(reality, anticipated)
@@ -27,6 +26,7 @@ class createCoursetest(createcourse_t, Page):
 
 
     def test_new_course(self):
+        """创建课程是否成功验证"""
 
         check = self.createCourse.input_course_test()
         cid = check[0]

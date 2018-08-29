@@ -1,1 +1,1 @@
-createcourse/createcourse_test
+coursedetail/coursepage_test

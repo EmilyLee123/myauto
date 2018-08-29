@@ -11,6 +11,7 @@ class cmsLogin(Page):
 
     def tests(self):
         """登录文本信息"""
+        self.click("cms_login", "登录右")
         list = []
         list.append(self.text("cms_login", "帮助"))
         list.append(self.text("cms_login", "登录右"))
@@ -34,18 +35,20 @@ class cmsLogin(Page):
 
     #登录功能操作
     def cms_login_msg(self, username, password):
-        """登录状态操作"""
-
+        """登录错误提示获取"""
+        self.click("cms_login", "登录右")
         self.send_keys("cms_login", "账号输入框", username)
         self.send_keys("cms_login", "密码输入框", password)
         self.click("cms_login", "登录按钮")
+
         if self.isElementExist("cms_login", "错误提示") == True:
             error = self.text("cms_login", "错误提示")
             return error
 
 
     def cms_login_test(self):
-        """登录的通用方法"""
+        """登录是否成功方法"""
+        self.click("cms_login", "登录右")
         config = ReadConfig()
         # 从配置文件获取账户和密码
         username = config.getConfig("username")
@@ -57,6 +60,7 @@ class cmsLogin(Page):
         self.click("cms_login", "登录按钮")
         self.wait_time(1)
 
+        #判断url检查是否登录成功
         g_url = self.get_url()
         print("获取的地址:%s" % g_url)
 
@@ -66,22 +70,45 @@ class cmsLogin(Page):
         self.check_url(g_url, t_url, '登录')
         return self.check_url(g_url, t_url, '登录')
 
+    # def cms_login_general(self):
+    #     """登录通用方法"""
+    #     self.click("cms_login", "登录右")
+    #     config = ReadConfig()
+    #     username = config.getConfig("username")
+    #     password = config.getConfig("password")
+    #     self.send_keys("cms_login", "账号输入框", username)
+    #     self.send_keys("cms_login", "密码输入框", password)
+    #     self.click("cms_login", "登录按钮")
+    #     self.wait_time(1)
 
 class login_ccreate(Page):
     def course_login(self):
-        """创建直播的登录方法"""
+        """创建课程的登录方法"""
+        self.click("cms_login", "登录右")
         config = ReadConfig()
         # 从配置文件获取账户和密码
         username = config.getConfig("username")
         password = config.getConfig("password")
         self.send_keys("cms_login", "账号输入框", username)
-
         self.send_keys("cms_login", "密码输入框", password)
         self.click("cms_login", "登录按钮")
         self.wait_time(0.8)
 
-        while self.is_displayed('course_create', '创建课程标题') == False:
-            self.click("cms_list", "创建课程按钮")
-            print(self.is_displayed('course_create', '创建课程标题'))
+        while self.is_displayed("course_create", "创建课程标题") == False:
+            self.click("course_create", "创建课程按钮")
+            print(self.is_displayed("course_create", "创建课程标题"))
         # else:
         #     logger.info('点击按钮成功')
+
+class courseDetaillogin(Page):
+    def detail_login(self):
+        """课程详情登录"""
+        self.click("cms_login", "登录右")
+        config = ReadConfig()
+        username = config.getConfig("username")
+        password = config.getConfig("password")
+        self.send_keys("cms_login", "账号输入框", username)
+        self.send_keys("cms_login", "密码输入框", password)
+        self.click("cms_login", "登录按钮")
+        self.wait_time(1)
+        self.click("course_page", "进入课程")

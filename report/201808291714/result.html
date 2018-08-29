@@ -130,9 +130,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">CMS测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 李梦妍</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-08-24 17:59:19</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:42.559197</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 2，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-08-29 17:14:28</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:22.956348</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，通过 1，通过率= 100.00%</p>
 
 <p class='description'>浏览器：Chrome</p>
 </div>
@@ -142,8 +142,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -164,16 +164,16 @@ function html_escape(s) {
 </tr>
 
 <tr class='passClass warning'>
-    <td>createcourse.createcourse_test.createCoursetest: 创建课程测试用例</td>
-    <td class="text-center">2</td>
-    <td class="text-center">2</td>
+    <td>coursedetail.coursepage_test.pageTest: 内容页面测试用例</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_new_course</div></td>
+    <td class='passCase'><div class='testcase'>test_texts_page: 内容页面文本验证</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou-->
     <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
@@ -184,32 +184,8 @@ function html_escape(s) {
     <div id='div_pt1_1' class="collapse in">-->
     <pre>
     
-pt1_1: False
-True
-课程编号:lmyAutoTest+665296+2018
-['261914', '317179', '539067', '16591', '414426', '847177', '544938', '604', '665296', '153946', '214', '677887', '417', '299929', '770207', '229032', '577418', '715098', '822669', '381204', '416000', '272684', '628147', '261', '212', '368', '933869', '203742', '71620', '65107', '639777', '337', '', '']
-
-
-    </pre>
-    </div>
-    </td>
-</tr>
-
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_texts_course: 文本验证</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou-->
-    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
-    <div id='div_pt1_2' class="collapse">  
-
-    <!-- 默认展开错误信息 -Findyou 
-    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
-    <div id='div_pt1_2' class="collapse in">-->
-    <pre>
-    
-pt1_2: True
-111 ['创建新课程', '课程名称', '例如，计算机科学导论', '课程的公开显示名称。您可以在“高级设置”中对其进行修改。', '组织机构', '例如：XX大学或XX机构', '开设该课程的组织名称。注意：课程网址将包含该组织名称。您可以在“高级设置”中对其进行修改。', '课程编号', '例如： CS101', '这是组织内该课程的专有编号。注意：课程网址包含该编号，请勿输入空格和特殊字符。该编号不可修改。', '开课时间', '例如：2014_T1', '课程开课时间。注意：课程网址包含该时间，请勿输入空格和特殊字符。该时间不可修改。', '课程分类', '+新增分类', '创建', '取消']
-222 ['创建新课程', '课程名称', '例如，计算机科学导论', '课程的公开显示名称。您可以在“高级设置”中对其进行修改。', '组织机构', '例如：XX大学或XX机构', '开设该课程的组织名称。注意：课程网址将包含该组织名称。您可以在“高级设置”中对其进行修改。', '课程编号', '例如： CS101', '这是组织内该课程的专有编号。注意：课程网址包含该编号，请勿输入空格和特殊字符。该编号不可修改。', '开课时间', '例如：2014_T1', '课程开课时间。注意：课程网址包含该时间，请勿输入空格和特殊字符。该时间不可修改。', '课程分类', '+新增分类', '创建', '取消']
+pt1_1: 真实值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意：页面公开可见。如果用户访问链接即可看到页面，即使他们尚未注册或者登录课程。', '主页', '课程', '讨论', 'Wiki', '进度', '什么是页面？', '页面在您课程页面的顶端水平展开。默认页面（主页、课程、讨论、课程百科和进度）的后面是教材页面和您创建的自定义页面。', '自定义页面', '您可以创建和编辑个性化页面，为学员提供额外的课程内容。例如，您可以创建评分政策、课程幻灯片和课程日历的自定义页面。', '在课程中，学员将会看到怎样的页面？', '学员将在课程上方看到默认页面以及自定义页面，通过点击不同的图标进行导航。\n请看例子']
+期望值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意：页面公开可见。如果用户访问链接即可看到页面，即使他们尚未注册或者登录课程。', '主页', '课程', '讨论', 'Wiki', '进度', '什么是页面？', '页面在您课程页面的顶端水平展开。默认页面（主页、课程、讨论、课程百科和进度）的后面是教材页面和您创建的自定义页面。', '自定义页面', '您可以创建和编辑个性化页面，为学员提供额外的课程内容。例如，您可以创建评分政策、课程幻灯片和课程日历的自定义页面。', '在课程中，学员将会看到怎样的页面？', '学员将在课程上方看到默认页面以及自定义页面，通过点击不同的图标进行导航。\n请看例子']
 
 
     </pre>
@@ -219,8 +195,8 @@ pt1_2: True
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>2</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>
@@ -445,7 +421,7 @@ pt1_2: True
 
         }
 
-        var chartData = [[0,"#f0ad4e","错误"], [0,"#d9534f", "失败"], [2,"#5cb85c","成功"],];
+        var chartData = [[0,"#f0ad4e","错误"], [0,"#d9534f", "失败"], [1,"#5cb85c","成功"],];
 
         goChart(chartData);
 

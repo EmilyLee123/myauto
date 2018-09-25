@@ -6,7 +6,7 @@ from testFile.elementAndText import Page_Text
 logger = Logging("CMSLoginTest").getlog()
 
 class CMSLoginTest(cmslogin_test):
-    """CMS登录页面文字检查测试用例"""
+    """CMS登录测试用例"""
     def test_login_1(self):
         """页面文本验证"""
         reality_text = self.cmsLogin.tests()

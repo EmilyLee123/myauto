@@ -2,6 +2,8 @@ import unittest
 
 from common.drive import Driver
 from common.function import Excel
+
+from page_obj.coursedetails.courseoutline import courseOutline
 from page_obj.coursedetails.coursepage import coursePage
 from page_obj.createcourse.createcourse import createCourse
 from page_obj.createlive.createlive import createLive
@@ -58,10 +60,10 @@ class createcourse_t(myunittest):
         self.createCourse.quit()
         self.assertEqual([], self.AssertionError)
 
-class coursedetail_login(myunittest):
-    """进入课程详情"""
+class coursepage_login(myunittest):
+    """进入课程详情页面"""
     def setUp(self):
-        driver =Driver(self.browser).open_browser()
+        driver = Driver(self.browser).open_browser()
         self.coursePage = coursePage(driver)
         self.coursePage.open(self.url)
         self.courseDetaillogin = courseDetaillogin(driver)
@@ -72,6 +74,19 @@ class coursedetail_login(myunittest):
         self.coursePage.quit()
         self.assertEqual([], self.AssertionError)
 
+class courseoutline_login(myunittest):
+    """进入课程详情课程大纲"""
+    def setUp(self):
+        driver = Driver(self.browser).open_browser()
+        self.courseOutline = courseOutline(driver)
+        self.courseOutline.open(self.url)
+        self.courseDetaillogin = courseDetaillogin(driver)
+        self.courseDetaillogin.detail_login()
+        self.AssertionError = []
+
+    def tearDown(self):
+        self.courseOutline.quit()
+        self.assertEqual([], self.AssertionError)
 
 
 class livelogin_test(myunittest):

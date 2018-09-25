@@ -32,3 +32,4 @@ class coursePage(Page):
         pagelist.append(self.text("course_page", "右答3"))
 
         return pagelist
+

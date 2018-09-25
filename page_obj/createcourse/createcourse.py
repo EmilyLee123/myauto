@@ -58,13 +58,11 @@ class createCourse(Page):
         self.browser_page_handle(type="0")
         print("课程编号:lmyAutoTest+" + "%s" % cid + "+2018")
         el = self.find_elements("course_create", "课程编号组")
-        #print(type(cid), cid, 555)
-
         list = []
         for n in range(len(el)):
             coursenumbers = el[n].text
             list.append(coursenumbers)
-        print(list)
+        #print(list)
 
         return cid, list
 

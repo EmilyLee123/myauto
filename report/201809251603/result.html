@@ -130,9 +130,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">CMS测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 李梦妍</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-08-29 17:14:28</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:22.956348</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 1，通过 1，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-09-25 16:03:38</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:03:00.052028</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 7，通过率= 100.00%</p>
 
 <p class='description'>浏览器：Chrome</p>
 </div>
@@ -142,8 +142,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 7 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 7 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -164,16 +164,16 @@ function html_escape(s) {
 </tr>
 
 <tr class='passClass warning'>
-    <td>coursedetail.coursepage_test.pageTest: 内容页面测试用例</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
+    <td>login.CMS_login_test.CMSLoginTest: CMS登录测试用例</td>
+    <td class="text-center">3</td>
+    <td class="text-center">3</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_texts_page: 内容页面文本验证</div></td>
+    <td class='passCase'><div class='testcase'>test_login_1: 页面文本验证</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou-->
     <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
@@ -184,8 +184,168 @@ function html_escape(s) {
     <div id='div_pt1_1' class="collapse in">-->
     <pre>
     
-pt1_1: 真实值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意：页面公开可见。如果用户访问链接即可看到页面，即使他们尚未注册或者登录课程。', '主页', '课程', '讨论', 'Wiki', '进度', '什么是页面？', '页面在您课程页面的顶端水平展开。默认页面（主页、课程、讨论、课程百科和进度）的后面是教材页面和您创建的自定义页面。', '自定义页面', '您可以创建和编辑个性化页面，为学员提供额外的课程内容。例如，您可以创建评分政策、课程幻灯片和课程日历的自定义页面。', '在课程中，学员将会看到怎样的页面？', '学员将在课程上方看到默认页面以及自定义页面，通过点击不同的图标进行导航。\n请看例子']
+pt1_1: 期望的值: ['帮助', '登录', '登录到课程管理中心', '邮箱或手机号码', '例如：username@domain.com或者13800138000', '密码', '登录到课程管理中心', '使用验证码登录', '© 2018 英荔教育.', 'EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。']
+获取的值: ['帮助', '登录', '登录到课程管理中心', '邮箱或手机号码', '例如：username@domain.com或者13800138000', '密码', '登录到课程管理中心', '使用验证码登录', '© 2018 英荔教育.', 'EdX、Open edX、Studio和 edX、Open edX 图标是 edX 公司的（注册）商标。']
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_2: 登录错误提示语验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in">-->
+    <pre>
+    
+pt1_2: 期望值 账号和密码不能为空
+获取值 账号和密码不能为空
+期望值 账号和密码不能为空
+获取值 账号和密码不能为空
+期望值 账号或密码错误。
+获取值 账号或密码错误。
+期望值 账号或密码错误。
+获取值 账号或密码错误。
+期望值 非常抱歉，该账户尚未被授予登录权限。
+获取值 非常抱歉，该账户尚未被授予登录权限。
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_3: 登录功能验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">-->
+    <pre>
+    
+pt1_3: 获取的地址:https://course.beta.e-ducation.cn/home/
+实际的地址:https://course.beta.e-ducation.cn/home/
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>createcourse.createcourse_test.createCoursetest: 创建课程测试用例</td>
+    <td class="text-center">2</td>
+    <td class="text-center">2</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_new_course: 创建课程是否成功验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in">-->
+    <pre>
+    
+pt2_1: True
+课程编号:lmyAutoTest+793262+2018
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_texts_course: 创建课程文本验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">-->
+    <pre>
+    
+pt2_2: True
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>coursedetail.coursepage_test.pageTest: 内容页面测试用例</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c3',1)" class="detail" id='c3'>详细</a></td>
+</tr>
+
+<tr id='pt3_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_texts_page: 内容页面文本验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt3_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt3_1'>通过</button>
+    <div id='div_pt3_1' class="collapse in">-->
+    <pre>
+    
+pt3_1: 真实值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意：页面公开可见。如果用户访问链接即可看到页面，即使他们尚未注册或者登录课程。', '主页', '课程', '讨论', 'Wiki', '进度', '什么是页面？', '页面在您课程页面的顶端水平展开。默认页面（主页、课程、讨论、课程百科和进度）的后面是教材页面和您创建的自定义页面。', '自定义页面', '您可以创建和编辑个性化页面，为学员提供额外的课程内容。例如，您可以创建评分政策、课程幻灯片和课程日历的自定义页面。', '在课程中，学员将会看到怎样的页面？', '学员将在课程上方看到默认页面以及自定义页面，通过点击不同的图标进行导航。\n请看例子']
 期望值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意：页面公开可见。如果用户访问链接即可看到页面，即使他们尚未注册或者登录课程。', '主页', '课程', '讨论', 'Wiki', '进度', '什么是页面？', '页面在您课程页面的顶端水平展开。默认页面（主页、课程、讨论、课程百科和进度）的后面是教材页面和您创建的自定义页面。', '自定义页面', '您可以创建和编辑个性化页面，为学员提供额外的课程内容。例如，您可以创建评分政策、课程幻灯片和课程日历的自定义页面。', '在课程中，学员将会看到怎样的页面？', '学员将在课程上方看到默认页面以及自定义页面，通过点击不同的图标进行导航。\n请看例子']
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>coursedetail.courseoutline_test.outlineTest: 内容大纲测试用例</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c4',1)" class="detail" id='c4'>详细</a></td>
+</tr>
+
+<tr id='pt4_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_texts_outline: 大纲页面文本验证</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou-->
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse">  
+
+    <!-- 默认展开错误信息 -Findyou 
+    <button id='btn_pt4_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt4_1'>通过</button>
+    <div id='div_pt4_1' class="collapse in">-->
+    <pre>
+    
+pt4_1: 真实值： ['内容\n&gt;\n课程大纲', '课程开始日期：', '添加新章节', '在线查看', '创建您课程的结构', '您可以直接在大纲中添加章、节和单元。', '创建章后，可在其中添加节和单元。然后在单元内添加课程组件。', '重新组织您的课程', '在大纲中将章，节和单元拖动至新的位置。', '了解更多', '设置课程开放日期和评分政策', '选择“设置”图标来为章、节设置开放日期。在设置节时，您还可以设置评分政策及截止日期。', '了解更多', '变更学员所见内容', '请点击章、节或单元中的“发布”图标来发布草稿内容。', '若要让章、节或单元对学员不可见，选择该层级的“设置”图标，然后选择“对学员隐藏”选项。隐藏后的章、节和单元成绩将不计入总成绩中。', '截止日期到期后，若要对学员隐藏节内容，请选择该节的“设置”图标，然后选择“截止日期过后隐藏课程内容”。该节的成绩将计入总成绩中。', '了解更多']
+期望值： ['内容\n&gt;\n课程大纲', '课程开始日期：', '添加新章节', '在线查看', '创建您课程的结构', '您可以直接在大纲中添加章、节和单元。', '创建章后，可在其中添加节和单元。然后在单元内添加课程组件。', '重新组织您的课程', '在大纲中将章，节和单元拖动至新的位置。', '了解更多', '设置课程开放日期和评分政策', '选择“设置”图标来为章、节设置开放日期。在设置节时，您还可以设置评分政策及截止日期。', '了解更多', '变更学员所见内容', '请点击章、节或单元中的“发布”图标来发布草稿内容。', '若要让章、节或单元对学员不可见，选择该层级的“设置”图标，然后选择“对学员隐藏”选项。隐藏后的章、节和单元成绩将不计入总成绩中。', '截止日期到期后，若要对学员隐藏节内容，请选择该节的“设置”图标，然后选择“截止日期过后隐藏课程内容”。该节的成绩将计入总成绩中。', '了解更多']
 
 
     </pre>
@@ -195,8 +355,8 @@ pt1_1: 真实值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意�
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>1</td>
-    <td>1</td>
+    <td>7</td>
+    <td>7</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>
@@ -421,7 +581,7 @@ pt1_1: 真实值： ['内容', '内容\n&gt;\n页面', '在线查看', '注意�
 
         }
 
-        var chartData = [[0,"#f0ad4e","错误"], [0,"#d9534f", "失败"], [1,"#5cb85c","成功"],];
+        var chartData = [[0,"#f0ad4e","错误"], [0,"#d9534f", "失败"], [7,"#5cb85c","成功"],];
 
         goChart(chartData);
 

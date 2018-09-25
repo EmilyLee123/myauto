@@ -12,12 +12,18 @@ class Page():
     #初始化
     def __init__(self, driver):
         self.driver = driver
+
+        # self.config_element = {}
+        # self.time = float(comfig.getConfig("element_wait"))
+        # self.implicit_wait = float(comfig.getConfig("implicit_wait"))
+
     #通用的方法封装
     #单个元素定位
     def find_element(self,page,element):
         """单个元素定位"""
         try:
             el = config_element[page][element]
+            #el = self.config_element[element]
             type = el[0]
             value = el[1]
             if type == "ID" or type == "id" or type == "Id":
@@ -91,6 +97,7 @@ class Page():
         """多元素定位"""
         try:
             el = config_element[page][elements]
+            #el = self.config_element[element]
             type = el[0]
             value = el[1]
             if type == "ID" or type == "id" or type == "Id":
@@ -168,6 +175,10 @@ class Page():
         el.click()
         self.wait_time(1)
 
+        # self.wait_time(1)
+        # el = self.find_element(element)
+        # el.click()
+
 
     #获取元素文本信息
     def text(self,page, element):
@@ -176,6 +187,12 @@ class Page():
 
         self.wait_time(0.1)
         return text
+
+    # def text(self, element):
+    #     """获取元素文本信息"""
+    #     self.wait_time(0.5)
+    #     text = self.find_element(element).text
+    #     return text
 
     #获取当前页面的URL
     def get_url(self):
@@ -188,16 +205,21 @@ class Page():
         self.wait_time(0.5)
         title = self.driver.title
         logger.info("获取页面的title : %s"  %title)
-        return  title
+        return title
 
     #清空输入框，然后输入VALUE
     def send_keys(self, page, element, value):
         """清空输入框，然后输入VALUE"""
         self.wait_time(0.8)
-
         self.find_element(page, element).clear()
-
         self.find_element(page, element).send_keys(value)
+
+        # def send_keys(self, element, value):
+        #     """清空输入框，然后输入VALUE"""
+        #     self.wait_time(0.8)
+        #     self.find_element(element).clear()
+        #     self.find_element(element).send_keys(value)
+
     def send_keys_noclear(self, page, element, value):
         """清空输入框，然后输入VALUE"""
         self.wait_time(0.8)

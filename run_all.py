@@ -6,6 +6,8 @@ from common import logger
 from common.HTMLTestRunner import HTMLTestRunner
 
 log = logger.Logging("run").getlog()
+
+
 def get_case_list():
     """获取case_list.txt文件中要执行的用例文件的名称"""
     list = open(os.path.join(readConfig.ProjectPath, "case_list.txt"))
@@ -21,13 +23,14 @@ def get_case_list():
 def get_list():
     """获取case_list.txt文件中要执行的用例文件，返回以文件为单位的list集合"""
     suite_module = []
-    list  = get_case_list()
+    list = get_case_list()
     for value in list:
-        case_path  = os.path.join(logger.projectPath,"testCase")
-        discover = unittest.defaultTestLoader.discover(case_path,   pattern = value.split("/")[-1]+'.py', top_level_dir=None)
+        case_path = os.path.join(logger.projectPath, "testCase")
+        discover = unittest.defaultTestLoader.discover(case_path,   pattern=value.split("/")[-1]+'.py', top_level_dir=None)
         suite_module.append(discover)
     print(suite_module, "suite_module")
     return suite_module
+
 
 if __name__ == '__main__':
     result_html = logger.Logging("Run").get_logPath()
